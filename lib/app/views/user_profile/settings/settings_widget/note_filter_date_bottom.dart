@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 import 'package:o_woman/utils/helper_widgets/monthview_widget.dart';
 
 import '../../../../../constants/app_colors.dart';
-import '../../../../../constants/font_size.dart ';
+import '../../../../../constants/font_size.dart';
 import '../../../../models/calander_config.dart';
 import '../../../../viewmodels/calendar/new_calander_controller.dart';
 import '../../../../viewmodels/notes/notes_controller.dart';

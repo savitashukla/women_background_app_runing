@@ -1,0 +1,83 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:1:1-21:12
+INJECTED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:1:1-21:12
+INJECTED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:1:1-21:12
+	package
+		INJECTED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml
+		ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:1:1-21:12
+		INJECTED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:2:3-78
+	android:name
+		ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:2:20-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:3:3-65
+	android:name
+		ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:3:20-63
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:4:3-63
+	android:name
+		ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:4:20-61
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:5:3-78
+	android:name
+		ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:5:20-76
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:6:3-75
+	android:name
+		ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:6:20-72
+uses-permission#android.permission.ACCESS_NOTIFICATION_POLICY
+ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:7:3-83
+	android:name
+		ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:7:20-80
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:8:3-75
+	android:name
+		ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:8:20-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:9:3-77
+	android:name
+		ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:9:20-75
+uses-permission#android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:10:3-89
+	android:name
+		ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:10:20-87
+uses-permission#android.permission.USE_EXACT_ALARM
+ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:11:3-71
+	android:name
+		ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:11:20-69
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:12:3-76
+	android:name
+		ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:12:20-74
+application
+ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:13:3-20:17
+receiver#com.gdelataillade.alarm.alarm.AlarmReceiver
+ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:14:5-47
+	android:name
+		ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:14:15-44
+service#com.gdelataillade.alarm.alarm.AlarmService
+ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:15:5-19:15
+	android:exported
+		ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:17:7-31
+	android:foregroundServiceType
+		ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:18:7-52
+	android:name
+		ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml:16:7-35
+uses-sdk
+INJECTED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml
+INJECTED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml
+INJECTED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml
+INJECTED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml
+		ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml
+		ADDED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/savitashukla/.pub-cache/hosted/pub.dev/alarm-3.1.7/android/src/main/AndroidManifest.xml

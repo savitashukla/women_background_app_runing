@@ -4,8 +4,9 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:o_woman/app/routes/routes.dart';
 import 'package:o_woman/constants/app_colors.dart';
-import 'package:o_woman/constants/font_size.dart ';
 import 'package:o_woman/constants/images_url.dart';
+
+import '../../constants/font_size.dart';
 
 class WelcomePage extends StatefulWidget {
   const WelcomePage({super.key});

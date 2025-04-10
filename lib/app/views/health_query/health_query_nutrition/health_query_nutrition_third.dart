@@ -9,7 +9,7 @@ import 'package:o_woman/app/views/health_query/help_weight_health_query/help_wei
 import 'package:o_woman/constants/app_colors.dart';
 import 'package:o_woman/utils/helper_widgets/custom_toast.dart';
 
-import '../../../../constants/font_size.dart ';
+import '../../../../constants/font_size.dart';
 import '../../../../constants/images_url.dart';
 import '../../../../utils/helper_widgets/helper_widgets.dart';
 import '../../../routes/routes.dart';

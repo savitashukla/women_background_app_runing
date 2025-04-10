@@ -3,10 +3,10 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:o_woman/app/views/home/circle_paint/CirclePaint.dart';
 import 'package:o_woman/app/views/home/circle_paint/const/size_const.dart';
 import 'package:o_woman/constants/app_string.dart';
-import 'package:o_woman/constants/font_size.dart%20';
 import 'package:o_woman/constants/images_url.dart';
 
 import '../../../constants/app_colors.dart';
+import '../../../constants/font_size.dart';
 import '../../viewmodels/home_controller/home_page_controller.dart';
 
 class InfoAboutCycle {

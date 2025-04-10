@@ -4,10 +4,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:o_woman/app/viewmodels/login/login_controller.dart';
-import 'package:o_woman/constants/font_size.dart%20';
 import 'package:o_woman/constants/images_url.dart';
 import 'package:o_woman/utils/password_validator_state.dart';
-import 'package:o_woman/utils/screen_config.dart';
 
 class Validation {
   static bool isValidString(String data) {
@@ -107,9 +105,8 @@ class Validation {
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                     Text(
+                    Text(
                       "To make your password stronger",
-                      style: w500_14Poppins()
                     ),
                     SizedBox(
                       height: 5.h,
@@ -158,7 +155,7 @@ class Validation {
     return SizedBox(
       // width: ScreenConfig.width,
       child: Padding(
-        padding:  EdgeInsets.all(5.0.sp),
+        padding: EdgeInsets.all(5.0.sp),
         child: Row(
           children: [
             SvgPicture.asset(
@@ -170,9 +167,6 @@ class Validation {
             ),
             Text(
               label,
-              style: w400_11Poppins(
-                color: Theme.of(context).hintColor,),
-               
             ),
           ],
         ),

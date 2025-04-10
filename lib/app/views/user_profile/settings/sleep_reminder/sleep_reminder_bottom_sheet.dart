@@ -9,9 +9,8 @@ import 'package:o_woman/app/views/user_profile/settings/sleep_reminder/sleep_cyc
 import 'package:o_woman/utils/helper_widgets/helper_widgets.dart';
 
 import '../../../../../constants/app_colors.dart';
-import '../../../../../constants/font_size.dart ';
+import '../../../../../constants/font_size.dart';
 import '../../../../../constants/images_url.dart';
-import '../../../progressbas_images.dart';
 
 class SleepReminderBottomS {
   ValueNotifier<double> cycleLength = ValueNotifier(60);
