@@ -7,7 +7,9 @@ import 'package:o_woman/app/views/home/water_mag/sales_data.dart';
 import 'package:o_woman/constants/app_colors.dart';
 import 'package:o_woman/constants/images_url.dart';
 import 'package:o_woman/utils/appBarheader.dart';
+/*
 import 'package:syncfusion_flutter_charts/charts.dart';
+*/
 
 import '../../../../viewmodels/home_controller/weight_analysisController.dart';
 
@@ -260,7 +262,7 @@ class WeightAnalysis extends StatelessWidget {
           SizedBox(
             height: 20,
           ),
-          Obx(
+         /* Obx(
             () => Container(
               width: 400,
               child: SfCartesianChart(
@@ -284,7 +286,7 @@ class WeightAnalysis extends StatelessWidget {
                 ],
               ),
             ),
-          ),
+          ),*/
         ],
       ),
     );

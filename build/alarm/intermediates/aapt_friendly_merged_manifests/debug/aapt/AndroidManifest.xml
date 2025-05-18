@@ -2,9 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gdelataillade.alarm.alarm" >
 
-    <uses-sdk
-        android:minSdkVersion="19"
-        android:targetSdkVersion="19" />
+    <uses-sdk android:minSdkVersion="19" />
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />

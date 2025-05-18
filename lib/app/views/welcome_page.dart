@@ -1,4 +1,6 @@
+/*
 import 'package:carousel_slider/carousel_slider.dart';
+*/
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
@@ -34,7 +36,7 @@ class _WelcomePageState extends State<WelcomePage> {
                   borderRadius: BorderRadius.only(
                       bottomLeft: Radius.circular(25),
                       bottomRight: Radius.circular(25))),
-              child: CarouselSlider(
+              child:SizedBox()/* CarouselSlider(
                 items: [
                   Image.asset(
                     ImagesUrl.onboarding1,
@@ -57,7 +59,7 @@ class _WelcomePageState extends State<WelcomePage> {
                   autoPlayAnimationDuration: const Duration(milliseconds: 200),
                   viewportFraction: 1,
                 ),
-              ),
+              )*/,
             ),
             Column(
               children: [
